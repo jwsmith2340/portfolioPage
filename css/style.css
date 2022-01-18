@@ -97,7 +97,7 @@ a {
 /* Welcome Intro Box */
 
 .mob-top-box {
-    height: 80%;
+    height: 100%;
     background-color: black;
 }
 
@@ -120,11 +120,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 80%;
+    height: 100%;
 }
 
 .mob-top-box-intro-content {
-    height: 93%;
+    height: 140%;
     width: 78%;
     border-left: solid 5px #B03167;
     border-bottom: outset 5px #B03167;
@@ -469,5 +469,4 @@ a {
     .email {
         font-size: 23px;
     }
-
 }
