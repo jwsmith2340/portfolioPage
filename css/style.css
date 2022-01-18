@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-color: black;
 }
 
@@ -47,7 +47,6 @@ a {
 }
 
 .mob-header-hamburger {
-    height: 100%;
     width: 81.2px;
     display: flex;
     justify-content: center;
@@ -57,7 +56,7 @@ a {
 #mob-header-hamburger-fa {
     color:white;
     font-size:38px;
-    padding-right: 10px;
+    margin-left: 5%;
 }
 
 .sideMenu {
@@ -96,17 +95,16 @@ a {
 
 /* Welcome Intro Box */
 
-.mob-top-box {
-    height: auto;
-    background-color: black;
-    margin-bottom: 10%;
-}
-
 .mob-top-box-welcome {
     height: 15%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.mob-top-box {
+    height: auto;
+    background-color: black;
 }
 
 .mob-top-box-welcome-h2 {
@@ -121,7 +119,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 40px;
     height: 80%;
 }
 
@@ -165,21 +162,20 @@ a {
 .mob-projects-box {
     height: 103%;
     background-color: black;
-    margin: 10% 0;
 }
 
 .mob-projects-title {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    height:7%;
+    align-items: center;
+    height:10%;
+    margin: 8% 0;
 }
 
 .mob-projects-title-h2 {
     color: white;
-    padding: 20px;
-    margin: 5px 8% 5px 0;
     font-size: 26px;
+    padding-right: 15px;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -254,22 +250,21 @@ a {
 }
 
 .mob-skills-box {
-    height: 100%;
+    height: 90%;
     background-color: black;
-    margin: 10% 0;
 }
 
 .mob-skills-title-box {
-    height: 7%;
-    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
     background-color: black;
-    margin-bottom: 20px;
+    margin: 8% 0;
 }
 
 .mob-skills-title-h2 {
     color: white;
-    padding: 10px;
-    margin: 5px 2% 5px 8%;
+    padding-left: 15px;
     font-size: 26px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -279,7 +274,6 @@ a {
     justify-content: center;
     align-items: flex-end;
     height: 85%;
-    margin-top: 50px;
 }
 
 .mob-skills-list {
@@ -299,35 +293,32 @@ a {
     flex-direction: column;
 }
 
-.img-box img {
-    max-height: 80%;
-}
-
 .img-box {
     height: 30%;
     display: flex;
     justify-content: space-around;
 }
 
+.img-box img {
+    max-height: 80px;
+    padding: 12px;
+}
+
 /* Mobile Format Contact Info */
 .mob-contact-box {
     height: 80%;
     background-color: black;
-    margin: 10% 0;
 }
 
 .mob-contact-title-box {
-    height: 7%;
-    width: 100%;
-    background-color: black;
-    margin-bottom: 20px;
+    height: 10%;
+    margin: 8% 0;
 }
 
 .mob-contact-title-h2 {
     color: white;
     padding: 10px;
     text-align: end;
-    margin: 5px 8% 5px 0;
     font-size: 26px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -340,7 +331,6 @@ a {
 }
 
 .mob-contact-list {
-    margin-top: 20px;
     width: 78%;
     border-right: solid 5px #B03167;
     border-top: outset 5px #B03167;
@@ -385,7 +375,7 @@ a {
     color: white;
     font-size: 17px;
     font-family: 'Cutive', serif;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .mob-contact-box-a {
