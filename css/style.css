@@ -105,7 +105,7 @@ a {
     height: 15%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .mob-top-box-welcome-h2 {
