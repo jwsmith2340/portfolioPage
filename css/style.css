@@ -34,7 +34,7 @@ a {
     font-family: 'Teko', sans-serif;
     color: white;
     margin: 6% 3%;
-    transition: 2s;
+    transition: 10s;
     transform: rotate(-720deg)
 }
 
@@ -42,7 +42,7 @@ a {
     font-size: 70px;
     font-family: 'Teko', sans-serif;
     color: #B03167;
-    transition: 30s;
+    transition: 10s;
     transform: rotate(3600deg);
 }
 
@@ -411,7 +411,7 @@ a {
         font-size: 70px;
         font-family: 'Teko', sans-serif;
         color: white;
-        transition: 2s;
+        transition: 10s;
         transform: rotate(-720deg)
     }
 
@@ -419,7 +419,7 @@ a {
         font-size: 70px;
         font-family: 'Teko', sans-serif;
         color: #B03167;
-        transition: 30s;
+        transition: 10s;
         transform: rotate(3600deg);
     }
 
