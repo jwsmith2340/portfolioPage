@@ -97,7 +97,7 @@ a {
 /* Welcome Intro Box */
 
 .mob-top-box {
-    height: 100%;
+    height: auto;
     background-color: black;
 }
 
@@ -120,11 +120,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 30px;
     height: 80%;
 }
 
 .mob-top-box-intro-content {
-    height: 93%;
+    height: auto;
     width: 78%;
     border-left: solid 5px #B03167;
     border-bottom: outset 5px #B03167;
