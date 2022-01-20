@@ -1,6 +1,10 @@
 $('#mob-header-hamburger-fa').on('click', openNav)
 
+$('#dt-header-hamburger-fa').on('click', openNavDt)
+
 $('.closeButton').on('click', closeNav)
+
+$('.dt-closeButton').on('click', closeNavDt)
 
 $('.first-a').on('click', scrollFirst)
 
@@ -16,8 +20,16 @@ function openNav() {
     $('.sideMenu').css('width', '100%')
 }
 
+function openNavDt() {
+    $('.dt-sideMenu').css('width', '30vw')
+}
+
 function closeNav() {
     $('.sideMenu').css('width', '0')
+}
+
+function closeNavDt() {
+    $('.dt-sideMenu').css('width', '0')
 }
 
 function scrollFirst() {
