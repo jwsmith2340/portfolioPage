@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .mob-header-bar {
     width: 100%;
     background-color: black;
