@@ -1,16 +1,18 @@
 $('#mob-header-hamburger-fa').on('click', openNav)
 
-$('#dt-header-hamburger-fa').on('click', openNavDt)
-
 $('.closeButton').on('click', closeNav)
-
-$('.dt-closeButton').on('click', closeNavDt)
 
 $('.first-a').on('click', scrollFirst)
 
 $('.second-a').on('click', scrollSecond)
 
 $('.third-a').on('click', scrollThird)
+
+$('.first-a-dt').on('click', scrollFirst)
+
+$('.second-a-dt').on('click', scrollSecond)
+
+$('.third-a-dt').on('click', scrollThird)
 
 $('.mob-header-logo-h3').on('click', scrollThirdFromLogo)
 
