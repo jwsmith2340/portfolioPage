@@ -1,6 +1,7 @@
 .dt-top-box-react-box {width: 0; height: 0;}
 .sideMenu-dt {display: none}
 .dt-skills-icons {display: none}
+.dt-top-box-react-box-contents p {display: none}
 
 * {
     margin: 0;
@@ -550,6 +551,7 @@ a {
     }
 
     .dt-top-box-react-box-contents p {
+        display: block;
         font-size: 55px;
     }
 
