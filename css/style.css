@@ -433,7 +433,6 @@ a {
 
     .mob-top-box-intro-p {
         color: white;
-        font-size: 22px;
         padding: 10px;
         font-size: 23px;
         font-family: 'Cutive', serif;
@@ -492,7 +491,7 @@ a {
     }
     
     .mob-header-hamburger {
-        width: 20vw;
+        width: 35vw;
         display: flex;
     }
 
@@ -505,7 +504,7 @@ a {
         justify-content: space-between;
         display: flex;
         align-items: center;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .sideMenu-dt a {
@@ -519,20 +518,22 @@ a {
         justify-content: flex-end;
     }
     .mob-top-box-welcome-h2 {
-        font-size: 60px;
+        font-size: 38px;
         margin-top: 10vh;
         font-family: Monaco;
     }
 
     .mob-top-box-intro-box {
+        display: flex;
+        align-items: center;
         height: 60vh;
         width: 40vw;
-        margin: 0 5vw 0 ;
+        margin: 0 5vw 0 0;
     }
 
     .mob-top-box-intro-p {
         height: 100%;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .dt-top-box-react-box {
@@ -543,7 +544,7 @@ a {
         flex-direction: column;
         justify-content: flex-st;
         align-items: center;
-        padding: 0 60px;
+        padding: 0 15px 0 30px;
     }
 
     .dt-top-box-react-box-contents {
@@ -552,7 +553,7 @@ a {
 
     .dt-top-box-react-box-contents p {
         display: block;
-        font-size: 55px;
+        font-size: 32px;
     }
 
     .mob-projects-title {
@@ -560,7 +561,7 @@ a {
     }
 
     .mob-projects-title-h2 {
-        font-size: 50px;
+        font-size: 33px;
         font-family: Monaco;
     }
 
@@ -617,7 +618,7 @@ a {
     }
 
     .mob-skills-title-h2 {
-        font-size: 50px;
+        font-size: 33px;
     }
 
     .mob-skills-title-box {
@@ -648,8 +649,8 @@ a {
     }
     
     .dt-img-box img {
-        max-height: 140px;
-        padding: 22px;
+        max-height: 120px;
+        padding: 18px;
     }
 
     .mob-contact-title-box {
@@ -657,7 +658,7 @@ a {
     }
 
     .mob-contact-title-h2 {
-    font-size: 50px;
+    font-size: 33px;
     }
 
     .mob-contact-list-box {
@@ -672,12 +673,126 @@ a {
     .mob-contact-box-p p {
         width: 70%;
         margin: 20px 0 0 100px;
-        font-size: 29px;
+        font-size: 20px;
     }
 
     .mob-contact-box {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .dt-top-box-react-box-contents p {
+        display: block;
+        font-size: 39px;
+    }
+
+    .mob-top-box-welcome-h2 {
+        font-size: 48px;
+        margin-top: 10vh;
+        font-family: Monaco;
+    }
+
+    .mob-projects-title-h2 {
+        font-size: 40px;
+        font-family: Monaco;
+    }
+
+    .mob-top-box-intro-p {
+        height: 100%;
+        font-size: 22px;
+    }
+
+    .mob-skills-title-h2 {
+        font-size: 40px;
+    }
+
+    .mob-contact-title-h2 {
+        font-size: 40px;
+    }
+
+    .mob-contact-box-p p {
+        width: 70%;
+        margin: 20px 0 0 100px;
+        font-size: 24px;
+    }
+
+    .dt-img-box img {
+        max-height: 140px;
+        padding: 22px;
+    }
+
+    .sideMenu-dt{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+    }
+    
+}
+
+@media (min-width: 1300px) {
+
+    .mob-header-hamburger {
+        width: 25vw;
+        display: flex;
+    }
+    
+    .mob-top-box-welcome-h2 {
+        font-size: 60px;
+        margin-top: 10vh;
+        font-family: Monaco;
+    }
+
+    .dt-top-box-react-box-contents p {
+        display: block;
+        font-size: 45px;
+    }
+
+    .mob-projects-title-h2 {
+        font-size: 50px;
+        font-family: Monaco;
+    }
+
+    .mob-top-box-intro-p {
+        height: 100%;
+        font-size: 26px;
+    }
+
+    .mob-skills-title-h2 {
+        font-size: 50px;
+    }
+
+    .mob-contact-title-h2 {
+        font-size: 50px;
+        }
+    
+    .mob-contact-box-p p {
+            width: 70%;
+            margin: 20px 0 0 100px;
+            font-size: 29px;
+        }
+
+}
+
+@media (min-width: 1550px) {
+
+    .mob-header-hamburger {
+        width: 20vw;
+        display: flex;
+    }
+
+    .mob-contact-box-p p {
+        width: 70%;
+        margin: 20px 0 0 100px;
+        font-size: 29px;
+    }
+
+    .dt-top-box-react-box-contents p {
+        display: block;
+        font-size: 55px;
     }
 
 }
