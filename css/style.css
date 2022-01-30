@@ -2,6 +2,7 @@
 .sideMenu-dt {display: none}
 .dt-skills-icons {display: none}
 .dt-top-box-react-box-contents p {display: none}
+.dt-top-box-intro-connect {display: none;}
 
 * {
     margin: 0;
@@ -151,8 +152,8 @@ button {
     justify-content: center;
     align-items: center;
     background: none;
-    height: 28px;
-    width: 150px;
+    height: 38px;
+    width: 180px;
     padding: 5px;
     margin-top: 15px;
     font-size: 18px;
@@ -489,13 +490,14 @@ button {
 
     .mob-skills-icons {display: none}
     .mob-skills-icons .img-box {display: none;}
+    .mob-top-box-intro-connect {display:none}
 
     #mob-header-hamburger-fa {
         display: none;
     }
     
     .mob-header-hamburger {
-        width: 35vw;
+        width: 45vw;
         display: flex;
     }
 
@@ -558,6 +560,27 @@ button {
     .dt-top-box-react-box-contents p {
         display: block;
         font-size: 32px;
+    }
+
+    .dt-top-box-intro-connect {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        height: 38px;
+        width: 180px;
+        padding: 5px;
+        margin-top: 10vh;
+        font-size: 18px;
+        color: #B03167;
+        border-radius: 15px;
+        border: #B03167 solid 1.3px;
+        transition: .2s ease-in-out;
+    }
+
+    .dt-top-box-intro-connect:hover {
+        color: white;
+        background-color: #B03167;
     }
 
     .mob-projects-title {
@@ -687,6 +710,11 @@ button {
 }
 
 @media (min-width: 1000px) {
+
+    .mob-header-hamburger {
+        width: 50vw;
+    }
+
     .dt-top-box-react-box-contents p {
         display: block;
         font-size: 39px;
@@ -705,6 +733,12 @@ button {
 
     .mob-top-box-intro-p {
         height: 100%;
+        font-size: 22px;
+    }
+
+    .dt-top-box-intro-connect {
+        height: 50px;
+        width: 200px;
         font-size: 22px;
     }
 
@@ -740,7 +774,7 @@ button {
 @media (min-width: 1300px) {
 
     .mob-header-hamburger {
-        width: 25vw;
+        width: 45vw;
         display: flex;
     }
     
@@ -784,7 +818,7 @@ button {
 @media (min-width: 1550px) {
 
     .mob-header-hamburger {
-        width: 20vw;
+        width: 35vw;
         display: flex;
     }
 

@@ -6,7 +6,7 @@ $('.first-a').on('click', scrollFirst)
 
 $('.second-a').on('click', scrollSecond)
 
-$('.third-a').on('click', scrollThird)
+$('.third-a, .dt-top-box-intro-connect').on('click', scrollThird)
 
 $('.first-a-dt').on('click', scrollFirst)
 
