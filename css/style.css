@@ -399,6 +399,16 @@ button {
     color: white;
 }
 
+.mob-contact-box-a-pop {
+    color: white;
+    font-size: 30px;
+    transition: ease-in .2s;
+}
+
+.mob-contact-box-a-pop:hover {
+    color: #B03167;
+}
+
 .little-black-box {
     height: 25vh;
     background-color: black;
